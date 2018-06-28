@@ -1,6 +1,23 @@
-frontend-nanodegree-arcade-game
-===============================
+# Memory Game Project
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+
+## Instructions
+
+The project is an arcade game, with a borat theme :
+Rules :
+- Player can not move off screen
+- Bugs cross the screen
+- Vehicle-player collisions happen logically (not too early or too late)
+- Vehicle-player collision resets the game
+- "Success" pop-up window appear when player wins
+- "Fail" pop-up window appear when player collide
+
+
+## Contributing
+
+- Add a score function, counting total moves
+- Use the reset() function inside enemies constructor function in app.js, lines 124 and 125

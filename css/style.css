@@ -1,3 +1,61 @@
 body {
     text-align: center;
 }
+
+p > span {
+  color: white;
+  padding-top: 0;
+  font-size: 1.4em;
+}
+
+strong{
+  color: blue;
+}
+
+.ModalCong {
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../images/borat.gif'); no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 1.5em;
+  border: 3px solid #888;
+}
+
+.ModalFail {
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../images/borat3.gif'); no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 1.5em;
+  border: 3px solid #888;
+}
+
+.strokeme {
+    color: black;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.content {
+  padding-bottom: 250px;
+}
+
+.stars {
+  color: #f3cb3c;
+  font-size: 30px;
+}

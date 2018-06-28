@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 </head>
 <body>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
+
+
+      <!-- Congratulations Modal content -->
+    <div class="ModalCong">
+      <div class="content">
+          <p class="strokeme">
+          <span>Press the <strong>Enter</strong> Key or <strong>Click</strong> the Refresh button to play again.</span>
+          <span class="stars" id="closeWinModal"> <i class="fas fa-sync-alt"></i></span>
+          </p>
+      </div>
+    </div>
+
+    <!-- Fail Modal content -->
+  <div class="ModalFail">
+    <div class="content">
+      <p class="strokeme">
+      <span>Press the <strong>Enter</strong> Key or <strong>Click</strong> the Refresh button to play again.</span>
+      <span class="stars" id="closeFailModal"> <i class="fas fa-sync-alt"></i></span>
+      </p>
+    </div>
+  </div>
+
 </body>
 </html>
